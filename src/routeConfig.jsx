@@ -4,7 +4,7 @@ import UseCallback from './pages/Learn/Hooks/useCallback'
 import UseMemo from './pages/Learn/Hooks/UseMemo'
 import UseEffect from './pages/Learn/Hooks/UseEffect'
 import UseContext from './pages/Learn/Hooks/UseContext'
-import Stopwatch from './pages/Learn/Stopwatch App/Stopwatch'
+import Stopwatch from './pages/Mini Apps/Stopwatch App/Stopwatch'
 
 export const learningRoutes = [
   {
