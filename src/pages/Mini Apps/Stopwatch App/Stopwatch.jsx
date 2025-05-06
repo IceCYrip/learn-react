@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react'
-import './Stopwatch.css'
+import './stopwatch.css'
 import BackButton from '../../../components/BackButton'
 import Name from '../../../components/useContext/Name'
 
