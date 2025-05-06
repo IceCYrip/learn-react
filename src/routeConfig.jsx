@@ -1,6 +1,6 @@
 import UseState from './pages/Learn/Hooks/UseState'
 import UseReducer from './pages/Learn/Hooks/UseReducer'
-import UseCallback from './pages/Learn/Hooks/useCallback'
+import UseCallback from './pages/Learn/Hooks/UseCallback'
 import UseMemo from './pages/Learn/Hooks/UseMemo'
 import UseEffect from './pages/Learn/Hooks/UseEffect'
 import UseContext from './pages/Learn/Hooks/UseContext'
