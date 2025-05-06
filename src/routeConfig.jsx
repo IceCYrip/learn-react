@@ -4,6 +4,7 @@ import UseCallback from './pages/Learn/Hooks/useCallback'
 import UseMemo from './pages/Learn/Hooks/UseMemo'
 import UseEffect from './pages/Learn/Hooks/UseEffect'
 import UseContext from './pages/Learn/Hooks/UseContext'
+import Stopwatch from './pages/Learn/Stopwatch App/Stopwatch'
 
 export const learningRoutes = [
   {
@@ -35,5 +36,13 @@ export const learningRoutes = [
     element: <UseContext />,
     path: '/learn/use-context',
     button_text: 'Learn useContext',
+  },
+]
+
+export const appRoutes = [
+  {
+    element: <Stopwatch />,
+    path: '/learn/stopwatch',
+    button_text: 'Stopwatch App',
   },
 ]
