@@ -11,8 +11,6 @@
 //To avoid this issue, we use useCallback, which is used to memoize a function. It checks whether the dependencies have changed or not. If yes, then it creates a new function only then, else it uses the old memoized function thus saving us from unnecessary re-renders
 
 import React, { useCallback, useState } from 'react'
-import BackButton from '../../../components/BackButton'
-import Name from '../../../components/useContext/Name'
 
 const Button = React.memo(({ onClick, label }) => {
   console.log(`Rendering: ${label}`)
@@ -33,8 +31,7 @@ export default function UseCallback() {
   return (
     <>
       <title>Learn Hooks - useCallback</title>
-      <BackButton />
-      <Name />
+
       <h1>useCallback Hook</h1>
       <h3>This is an example for understanding useCallback hook in react</h3>
       <h1>Count: {count}</h1>

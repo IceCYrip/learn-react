@@ -1,13 +1,12 @@
-import React from 'react'
-import { appRoutes } from '../../routeConfig'
+import { learningDifferencesRoutes } from '../../routeConfig'
 import { Link } from 'react-router-dom'
 
-const MiniApps = () => {
+const LearnDifferences = () => {
   return (
     <div style={{ textAlign: 'start' }}>
-      <h2>Mini Application:</h2>
+      <h2>Learn Differences:</h2>
       <ul>
-        {appRoutes.map((route) => (
+        {learningDifferencesRoutes.map((route) => (
           <li
             key={route.path}
             style={{ fontSize: '18px', width: 'max-content' }}
@@ -20,4 +19,4 @@ const MiniApps = () => {
   )
 }
 
-export default MiniApps
+export default LearnDifferences

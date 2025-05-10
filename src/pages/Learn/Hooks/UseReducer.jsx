@@ -6,9 +6,7 @@
  * to update the number accordingly. The reducer function handles logic for each action.
  */
 
-import React, { useReducer } from 'react'
-import BackButton from '../../../components/BackButton'
-import Name from '../../../components/useContext/Name'
+import { useReducer } from 'react'
 
 const UseReducer = () => {
   const numReducer = (state, action) => {
@@ -42,8 +40,6 @@ const UseReducer = () => {
   return (
     <>
       <title>Learn Hooks - useReducer</title>
-      <BackButton />
-      <Name />
 
       <h1>useReducer Hook</h1>
       <h3>This is an example for understanding useReducer hook in react</h3>

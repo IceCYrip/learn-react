@@ -2,9 +2,7 @@
 // It shows how to increment and decrement a counter using buttons, helping beginners understand state updates in React.
 //NOTE: Check console log to notice that whenever a state is updated, it re-renders the component.
 
-import React, { useState } from 'react'
-import BackButton from '../../../components/BackButton'
-import Name from '../../../components/useContext/Name'
+import { useState } from 'react'
 
 const UseState = () => {
   const [counter, setCounter] = useState(0)
@@ -14,8 +12,6 @@ const UseState = () => {
   return (
     <>
       <title>Learn Hooks - useState</title>
-      <BackButton />
-      <Name />
 
       <h1>useState Hook</h1>
       <h3>This is an example for understanding useState hook in react</h3>

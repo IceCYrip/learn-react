@@ -5,8 +5,9 @@ import UseMemo from './pages/Learn/Hooks/UseMemo'
 import UseEffect from './pages/Learn/Hooks/UseEffect'
 import UseContext from './pages/Learn/Hooks/UseContext'
 import Stopwatch from './pages/Mini Apps/Stopwatch App/Stopwatch'
+import UseStatevsUseRef from './pages/Learn/Differences/UseStatevsUseRef'
 
-export const learningRoutes = [
+export const learningHookRoutes = [
   {
     element: <UseState />,
     path: '/learn/use-state',
@@ -36,6 +37,13 @@ export const learningRoutes = [
     element: <UseContext />,
     path: '/learn/use-context',
     button_text: 'Learn useContext',
+  },
+]
+export const learningDifferencesRoutes = [
+  {
+    element: <UseStatevsUseRef />,
+    path: '/learn/use-state-vs-use-ref',
+    button_text: 'useState vs useRef',
   },
 ]
 

@@ -1,7 +1,5 @@
 import { useEffect, useState, useRef } from 'react'
 import './stopwatch.css'
-import BackButton from '../../../components/BackButton'
-import Name from '../../../components/useContext/Name'
 
 export default function Stopwatch() {
   const [seconds, setSeconds] = useState(0)
@@ -37,8 +35,6 @@ export default function Stopwatch() {
 
   return (
     <div className='Stopwatch'>
-      <BackButton />
-      <Name />
       {/* <div className='corner-text'>Developed by Karan Sable</div> */}
       <div className='stopwatch-container'>
         <span>Stopwatch</span>

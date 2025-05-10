@@ -11,9 +11,7 @@
  * NOTE: PLease check the console log to observe the behaviour
  **/
 
-import React, { useState, useEffect } from 'react'
-import BackButton from '../../../components/BackButton'
-import Name from '../../../components/useContext/Name'
+import { useState, useEffect } from 'react'
 
 const UseEffect = () => {
   const [counter1, setCounter1] = useState(0)
@@ -42,8 +40,6 @@ const UseEffect = () => {
   return (
     <>
       <title>Learn Hooks - useState</title>
-      <BackButton />
-      <Name />
 
       <h1>useState Hook</h1>
       <h3>This is an example for understanding useState hook in react</h3>

@@ -4,9 +4,7 @@
 // When you change the value of the counter, you’ll see that regular state and variable values update,
 // but the memoized value remains unchanged unless its dependencies change.
 
-import React, { useMemo, useState } from 'react'
-import BackButton from '../../../components/BackButton'
-import Name from '../../../components/useContext/Name'
+import { useMemo, useState } from 'react'
 
 const UseMemo = () => {
   const heavyCalculationsForState = () => {
@@ -43,9 +41,6 @@ const UseMemo = () => {
   return (
     <>
       <title>Learn Hooks - useMemo</title>
-
-      <BackButton />
-      <Name />
 
       <h1>useMemo Hook</h1>
       <h3>This is an example for understanding useMemo hook in react</h3>
