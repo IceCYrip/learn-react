@@ -16,7 +16,6 @@ function App() {
           display: 'flex',
           justifyContent: 'center',
           columnGap: '100px',
-          backgroundColor: 'whitesmoke',
           padding: '20px 40px',
           borderRadius: 15,
           marginTop: '75px',
