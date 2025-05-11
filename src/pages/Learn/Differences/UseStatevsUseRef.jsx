@@ -21,7 +21,10 @@ const UseStatevsUseRef = () => {
       <title>Learn Differnce - useState vs useRef</title>
 
       <h1 style={{ margin: 0 }}>useState vs useRef</h1>
-      <h3>This is an example for understanding useState hook in react</h3>
+      <h3>
+        This is an example for understanding difference between useState and
+        useRef hook in react
+      </h3>
 
       <div
         style={{
