@@ -6,6 +6,7 @@ import UseEffect from './pages/Learn/Hooks/UseEffect'
 import UseContext from './pages/Learn/Hooks/UseContext'
 import Stopwatch from './pages/Mini Apps/Stopwatch App/Stopwatch'
 import UseStatevsUseRef from './pages/Learn/Differences/UseStatevsUseRef'
+import ChangeButtonColors from './pages/Playground/ChangeButtonColors'
 
 export const learningHookRoutes = [
   {
@@ -44,6 +45,13 @@ export const learningDifferencesRoutes = [
     element: <UseStatevsUseRef />,
     path: '/learn/use-state-vs-use-ref',
     button_text: 'useState vs useRef',
+  },
+]
+export const playgroundRoutes = [
+  {
+    element: <ChangeButtonColors />,
+    path: '/playground/change-button-colors',
+    button_text: 'Change Button Colors (with useRef)',
   },
 ]
 

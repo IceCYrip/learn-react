@@ -7,6 +7,7 @@ import {
   appRoutes,
   learningDifferencesRoutes,
   learningHookRoutes,
+  playgroundRoutes,
 } from './routeConfig'
 import { UserContextProvider } from './components/useContext/UserContext.jsx'
 import Name from './components/useContext/Name.jsx'
@@ -28,6 +29,10 @@ createRoot(document.getElementById('root')).render(
           ))}
           {/* Learning Differences Routes */}
           {learningDifferencesRoutes.map((route) => (
+            <Route key={route.path} element={route.element} path={route.path} />
+          ))}
+          {/* Playground Routes */}
+          {playgroundRoutes.map((route) => (
             <Route key={route.path} element={route.element} path={route.path} />
           ))}
 
